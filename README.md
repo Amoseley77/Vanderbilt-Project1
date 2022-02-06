@@ -105,6 +105,8 @@ SSH into the control node and follow the steps below:
 - Copy the __Filebeat-config.yml___ file to __/etc/ansible/files/filebeat-config.yml___.
 - Update the __ Filebeat-config.yml___ ___ file to include host 10.3.0.4:9200 with username elastic an dpassword changeme an dsetup.Kibana host to 10.1.4.4:5601
 - Run the playbook, and navigate to _Kibana___ to check that the installation worked as expected.
+
+https://github.com/Amoseley77/Vanderbilt-Project1/issues/2#issue-1125111358
  
 _Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Filebeat-playbook.yml  Where do you copy it? /etc/ansible/files/filebeat-config.yml
