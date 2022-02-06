@@ -83,7 +83,9 @@ The playbook implements the following tasks:
 •	Downloads, installs and executes the docker elk container on the Elk vm on restart so the elk container doesn't need to be manually started
 •	This enables docker on boot so you don't have to manually start docker when you turn your VM back on.
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance. 
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+![image](https://user-images.githubusercontent.com/90538632/152669200-b8cad346-935f-4be5-9d4d-8b61dd7f8a05.png)
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
